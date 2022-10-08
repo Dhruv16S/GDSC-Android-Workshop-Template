@@ -16,6 +16,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.ar.gdscworkshop.R
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import java.util.*
@@ -23,7 +24,7 @@ import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity(), TimePickerDialog.OnTimeSetListener,
     DatePickerDialog.OnDateSetListener {
-
+    //Participant, uncomment code while you proceed
     //lateinit var preferences: SharedPreferences
 
     //TODO
